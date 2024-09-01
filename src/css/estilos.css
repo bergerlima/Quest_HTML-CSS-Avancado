@@ -37,6 +37,7 @@ main .info{
 
 main .info .title{
     max-width: 400px;
+    font-weight: 600;
 }
 
 main .info .text{
