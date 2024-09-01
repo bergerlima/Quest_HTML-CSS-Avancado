@@ -1,0 +1,99 @@
+:root{
+    --bg-color: hsl(257, 40%, 49%);
+    --hover-color: hsl(300, 69%, 71%);
+}
+
+body{
+    background-color: var(--bg-color);
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Open Sans', 'Poppins', sans-serif;
+    color: white;
+}
+
+.container{
+    padding: 42px 57px;
+}
+
+header .logo{
+    max-width: 170px;
+}
+
+main{
+    display: flex;
+    margin-top: 65px;
+    gap: 42px;
+}
+
+main .mockups{
+    max-width: 568px;
+}
+
+main .info{
+    margin-top: 36px;
+}
+
+main .info .title{
+    max-width: 400px;
+}
+
+main .info .text{
+    margin-top: 24px;
+    max-width: 460px;
+}
+
+main .info .button{
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 50px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+
+    color: var(--bg-color);
+    font-weight: 600;
+}
+
+main .info .button:hover{
+    background-color: var(--hover-color);
+    color: white;
+}
+
+footer{
+    max-width: 1080px;
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+    gap: 15px;
+}
+
+footer .social{
+    color: white;
+    transition: 0.25s;
+}
+
+footer .social:hover{
+    color: var(--hover-color);
+}
+
+footer .social .fa-facebook-f{
+    border: 2px solid;
+    padding: 10px 13px;
+    border-radius: 50%;
+}
+
+footer .fa-twitter{
+    border: 2px solid;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+footer .fa-instagram{
+    border: 2px solid;
+    padding: 10px 11px;
+    border-radius: 50%;
+}
