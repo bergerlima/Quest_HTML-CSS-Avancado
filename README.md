@@ -11,7 +11,7 @@
 * HTML
 * CSS
 
-## Minhas consierações sobre o desafio
+## Minhas considerações sobre o desafio
 
 Tive facilidade no uso do Flexbox para posicionar os elementos. As imagens e cores foram fornecidas previamente.
 Senti dificuldade para encontrar as dimensões e espaçamentos dos elementos. Um projeto salvo no Figma facilita demais a produção.
